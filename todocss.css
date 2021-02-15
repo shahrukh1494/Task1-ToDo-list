@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    min-width: 250px;
+    background: #5f2c82;  /* for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);
+    background: linear-gradient(to right, #49a09d, #5f2c82); 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-shadow: 2px 2px 4px black ;
+    padding: 6px;
+    box-shadow: 2px 2px 4px black ;
+    background: #EB5757;  /* for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #EB5757);
+    background: linear-gradient(to right, #000000, #EB5757);
+}
+
+.top {
+    color: white;
+    text-align: center;
+}
+
+form {
+    margin: 40px;
+}
+
+form label {
+    text-shadow: 2px 2px 4px black ;
+}
+
+ul {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+  
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 8px 6px 8px 20px;
+    list-style-type: none;
+    background: #EB5757;  /* for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #EB5757);
+    background: linear-gradient(to right, #000000, #EB5757);
+
+    color: white;
+    font-size: 18px;
+    transition: 0.2s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    text-shadow: 2px 2px 4px black ;
+    box-shadow: 0 0 8px black;
+    flex: 6;
+    margin-right: 4px;
+    word-wrap: break-word;
+    width: 65%;
+    min-width: 30%;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:hover {
+    background: #000046;  /* for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    background: linear-gradient(to right, #1CB5E0, #000046);
+}
+
+ul li.strike {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 50%;
+    padding: 8px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+input:hover, input:focus {
+    box-shadow: 0 0 12px black;
+}
+
+.addbutton {
+    padding: 8px;
+    width: 60px;
+    background: #2484aa;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.edit, .delete {
+    padding: 8px;
+    background: #088574;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin: 4px;
+    flex: 0.5;
+    height: 5%;
+}
+
+.addbutton:hover {
+    background-color: darkslateblue;
+    box-shadow: 0 0 8px black;
+}
+
+.delete:hover, .edit:hover {
+    background-color: rgb(179, 9, 17);
+    box-shadow: 0 0 8px black;
+}
+
+.listlabel {
+    text-align: center;
+    text-shadow: 2px 2px 2px black ;
+    box-shadow: 2px 2px 4px black ;
+    font-size: 18px;
+    background: #EB5757;  /* for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #EB5757);
+    background: linear-gradient(to right, #000000, #EB5757);
+
+    padding: 16px;
+    color: white;
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 8px;
+}
+
+.liblocks {
+    display: flex;
+}

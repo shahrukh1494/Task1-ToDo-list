@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>To do List</title>
+        <script src="todojavascript.js"></script>
+        <link rel="stylesheet" href="todocss.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for responsive design-->
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="top">
+        <header><h2>Todo App</h2></header>
+        <form>
+            <label for="todoitem">Write the list item here and click on add to add it to list</label><br><br>
+            <input type="text" class="iteminput" id="todoitem" placeholder="write here to add to list">
+            <button class="addbutton" id="addbtn" type="button" onclick="addToList()">Add</button>
+        </form>
+        </div>
+        <p class="listlabel"><b>To-do List</b></p>
+        <ul id="list"></ul>
+    </body>
+</html>
