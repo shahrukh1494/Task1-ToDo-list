@@ -1,6 +1,6 @@
   //Press Enter to submit
   /* document.getElementById("todoitem").addEventListener("keypress", function(e) {
-  if (e.keyCode == 13) {
+  if (e.key == 13) {
       e.preventDefault();
       document.getElementById("addbtn").click();
     }
@@ -38,7 +38,7 @@
 
   //delete list item on clicking delete button
   del.addEventListener("click", function() {
-      div.style.display = "none"
+      div.style.display = "none";
   });
   
   //strike text on clicking list item
