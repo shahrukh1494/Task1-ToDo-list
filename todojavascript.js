@@ -2,7 +2,6 @@
 
   let sub = document.getElementById("addbtn");
   sub.addEventListener("click", function () {
-  //function addToList() {
     let div = document.createElement("div");
 
     let li = document.createElement("li"); //create li tag        
@@ -12,7 +11,7 @@
     div.appendChild(li);
     div.classList.add("liblocks");
 
-    if (newInput === "") { //check if input box empty
+    if (newInput.trim() === "") { //check if input box empty
       alert("Please write something to add to list");
     }
     else {
